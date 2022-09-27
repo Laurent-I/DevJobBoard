@@ -24,6 +24,12 @@ function App() {
   });
   const countLength = filter.length;
 
+  const notFound = (
+    <div className="flex items-center justify-center">
+      <p className="text-red-500 text-2xl">Sorry, no results found!</p>
+    </div>
+  );
+
   return (
     <Fragment>
       <Header countLength={countLength}>
@@ -45,6 +51,7 @@ function App() {
             location={profile.location}
           />
         ))}
+        {!countLength && notFound}
       </div>
     </Fragment>
   );

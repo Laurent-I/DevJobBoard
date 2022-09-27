@@ -1,5 +1,4 @@
 import React from "react";
-import FullProfile from "../../Submission/Submission.json";
 
 const Count = (props) => {
   const profileCount = props.count;
