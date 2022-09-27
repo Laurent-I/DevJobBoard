@@ -1,15 +1,6 @@
 import React from "react";
 
 const ProfileLink = (props) => {
-  if (!props.website) {
-    return null;
-  }
-  if (!props.github) {
-    return null;
-  }
-  if (!props.linkedin) {
-    return null;
-  }
   return (
     <div className="flex flex-row justify-evenly my-2">
       <a
@@ -22,32 +13,38 @@ const ProfileLink = (props) => {
           className="w-6 h-6"
         />
       </a>
-      <a
-        href={props.linkedin}
-        className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-400"
-      >
-        <img
-          src="imgs/icons8-linkedin-2.svg"
-          alt="linkedin icon"
-          className="w-6 h-6"
-        />
-      </a>
-      <a
-        href={props.website}
-        className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-400"
-      >
-        <img
-          src="imgs/icons8-website-50.png"
-          alt="Website icon"
-          className="w-6 h-6"
-        />
-      </a>
-      <a
-        href={props.github}
-        className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-400"
-      >
-        <img src="imgs/icons8-github.svg" alt="github" />
-      </a>
+      {props.linkedin && (
+        <a
+          href={props.linkedin}
+          className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-400"
+        >
+          <img
+            src="imgs/icons8-linkedin-2.svg"
+            alt="linkedin icon"
+            className="w-6 h-6"
+          />
+        </a>
+      )}
+      {props.website && (
+        <a
+          href={props.website}
+          className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-400"
+        >
+          <img
+            src="imgs/icons8-website-50.png"
+            alt="Website icon"
+            className="w-6 h-6"
+          />
+        </a>
+      )}
+      {props.github && (
+        <a
+          href={props.github}
+          className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-400"
+        >
+          <img src="imgs/icons8-github.svg" alt="github" />
+        </a>
+      )}
     </div>
   );
 };
