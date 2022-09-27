@@ -12,23 +12,26 @@ function App() {
     setSearchItem(event.target.value);
   };
 
+  const filter = Profiles.filter((val) => {
+    if (searchItem === "") {
+      return val;
+    } else if (
+      val.name.toLowerCase().includes(searchItem.toLowerCase()) ||
+      val.jobTitle.toLowerCase().includes(searchItem.toLowerCase())
+    ) {
+      return val;
+    }
+  });
+  const countLength = filter.length;
+
   return (
     <Fragment>
-      <Header>
+      <Header countLength={countLength}>
         <Logo />
         <Input onChange={searchHandler} />
       </Header>
       <div className="my-12 flex flex-row gap-12 flex-wrap justify-evenly mx-52">
-        {Profiles.filter((val) => {
-          if (searchItem === "") {
-            return val;
-          } else if (
-            val.name.toLowerCase().includes(searchItem.toLowerCase()) ||
-            val.jobTitle.toLowerCase().includes(searchItem.toLowerCase())
-          ) {
-            return val;
-          }
-        }).map((profile, i) => (
+        {filter.map((profile, i) => (
           <FullProfile
             key={i}
             id={profile.id}

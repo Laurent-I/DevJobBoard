@@ -7,7 +7,7 @@ const Header = (props) => {
       <div className="sticky top-0 flex w-full bg-black h-24 justify-between">
         {props.children}
       </div>
-      <SubHeader />
+      <SubHeader countLength={props.countLength} />
     </Fragment>
   );
 };
