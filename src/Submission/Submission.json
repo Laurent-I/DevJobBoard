@@ -20,5 +20,38 @@
     "github": "https://github.com/Irakarama-Laurent123",
     "jobTitle": "Mobile Developer",
     "location": "California, USA"
+  },
+  {
+    "id": 3,
+    "name": "Mwenedata Apotre",
+    "img": "",
+    "email": "hallcoder25@gmail.com",
+    "website": "https://github.com/hall-coder",
+    "linkedin": "https://www.linkedin.com/in/irakarama-laurent-119741241/",
+    "github": "https://github.com/Irakarama-Laurent123",
+    "jobTitle": "Mobile Developer",
+    "location": "California, USA"
+  },
+  {
+    "id": 4,
+    "name": "Mwenedata Apotre",
+    "img": "",
+    "email": "hallcoder25@gmail.com",
+    "website": "https://github.com/hall-coder",
+    "linkedin": "https://www.linkedin.com/in/irakarama-laurent-119741241/",
+    "github": "https://github.com/Irakarama-Laurent123",
+    "jobTitle": "Mobile Developer",
+    "location": "California, USA"
+  },
+  {
+    "id": 5,
+    "name": "Mwenedata Elua",
+    "img": "",
+    "email": "hallcoder25@gmail.com",
+    "website": "https://github.com/hall-coder",
+    "linkedin": "https://www.linkedin.com/in/irakarama-laurent-119741241/",
+    "github": "https://github.com/Irakarama-Laurent123",
+    "jobTitle": "Mobile Developer",
+    "location": "California, USA"
   }
 ]

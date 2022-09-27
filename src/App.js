@@ -1,14 +1,33 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import Header from "./components/Layout/Header";
 import FullProfile from "./components/Profile/FullProfile";
+import Logo from "./components/UI/Logo";
+import Input from "./components/UI/Input";
 import Profiles from "./Submission/Submission.json";
 
 function App() {
+  const [searchItem, setSearchItem] = useState("");
+
+  const searchHandler = (event) => {
+    setSearchItem(event.target.value);
+  };
+
   return (
     <Fragment>
-      <Header />
-      <div className="flex justify-evenly">
-        {Profiles.map((profile, i) => (
+      <Header>
+        <Logo />
+        <Input onChange={searchHandler} />
+      </Header>
+      <div className="my-12 flex flex-row gap-12 flex-wrap justify-evenly mx-52">
+        {Profiles.filter((val) => {
+          if (searchItem === "") {
+            return val;
+          } else if (
+            val.name.toLowerCase().includes(searchItem.toLowerCase())
+          ) {
+            return val;
+          }
+        }).map((profile, i) => (
           <FullProfile
             key={i}
             id={profile.id}
