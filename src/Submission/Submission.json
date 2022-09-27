@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Irakarama Laurent",
+    "img": "",
+    "email": "irakramlaw@gmail.com",
+    "website": "https://github.com/Irakarama-Laurent123",
+    "linkedin": "https://www.linkedin.com/in/irakarama-laurent-119741241/",
+    "github": "https://github.com/Irakarama-Laurent123",
+    "jobTitle": "Fullstack JS",
+    "location": "Kigali Rwanda"
+  },
+  {
+    "id": 2,
+    "name": "Mwenedata Apotre",
+    "img": "",
+    "email": "hallcoder25@gmail.com",
+    "website": "https://github.com/hall-coder",
+    "linkedin": "https://www.linkedin.com/in/irakarama-laurent-119741241/",
+    "github": "https://github.com/Irakarama-Laurent123",
+    "jobTitle": "Mobile Developer",
+    "location": "California, USA"
+  }
+]
