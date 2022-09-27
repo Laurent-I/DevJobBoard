@@ -23,7 +23,8 @@ function App() {
           if (searchItem === "") {
             return val;
           } else if (
-            val.name.toLowerCase().includes(searchItem.toLowerCase())
+            val.name.toLowerCase().includes(searchItem.toLowerCase()) ||
+            val.jobTitle.toLowerCase().includes(searchItem.toLowerCase())
           ) {
             return val;
           }
