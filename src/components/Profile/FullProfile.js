@@ -7,7 +7,7 @@ import ProfileLink from "./ProfileLink";
 
 const FullProfile = (props) => {
   return (
-    <section className="my-12 flex flex-row gap-12 flex-wrap justify-evenly mx-52">
+    <section>
       <Card>
         <ProfileImage image={props.image} />
         <ProfileInfo name={props.name} job={props.job} />

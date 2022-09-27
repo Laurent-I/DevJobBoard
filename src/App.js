@@ -30,7 +30,7 @@ function App() {
         <Logo />
         <Input onChange={searchHandler} />
       </Header>
-      <div className="my-12 flex flex-row gap-12 flex-wrap justify-evenly mx-52">
+      <div className="my-12 flex flex-row gap-12 flex-wrap justify-evenly mx-48">
         {filter.map((profile, i) => (
           <FullProfile
             key={i}
