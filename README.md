@@ -1,4 +1,4 @@
-# ZtM-Job-Board &emsp; [![Build Project](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml)
+# Dev-Job-Board
 
 A place for developers to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
 
@@ -7,6 +7,8 @@ Link to the webpage: [**JOB Board**](https://dev-job-board-now.vercel.app).
 ### How to run the project in your local machine
 
 - `git clone https://github.com/Irakarama-Laurent123/DevJobBoard.git`
+
+- `npm install`
 
 - `npm start`
 
