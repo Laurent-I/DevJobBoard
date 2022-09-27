@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# ZtM-Job-Board &emsp; [![Build Project](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A place for developers to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
 
-## Available Scripts
+Link to the webpage: [**JOB Board**](https://dev-job-board-now.vercel.app).
 
-In the project directory, you can run:
+### How to run the project in your local machine
 
-### `npm start`
+- `git clone https://github.com/Irakarama-Laurent123/DevJobBoard.git`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### How to add your name to the list
 
-### `npm test`
+Note: **You will first need to make a fork of the project!**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![fork image](https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png)
 
-### `npm run build`
+If you are unclear on how the GitHub workflow works, you can check the [Make a Pull Request guide](https://makeapullrequest.com/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To add your DATA to the list `Submission.json`
+inside `Submissions/` folder, with following content.
+(**Don't include the square brackets "[ ]" or angle brackets "< >" !!! They
+are just there to indicate an example placeholder.**)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```json
+{
+  "name": "[YOUR_FULL_NAME]",
+  "img": "[YOUR_IMG_URL]",
+  "email": "[YOUR_EMAIL_ADDRESS]",
+  "website": "[YOUR_WEBSITE_URL]",
+  "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
+  "github": "https://github.com/<YOUR_GH_USERNAME>",
+  "jobTitle": "[YOUR_TITLE]",
+  "location": "[  YOUR_LOCATION]"
+}
+```
 
-### `npm run eject`
+### Please note!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Profile pictures and/or images\* are allowed.
+- If you do not want to fill some of the fields, leave them blank (e.g. `state: "",`).
+- Your pull request will only be accepted if it follows the example above. It **cannot** have anything else.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Please submit a Pull Request to be added to this list. If you are unsure how to do this, please check out _Contributing To Open Source_ video
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- How to add profile image to your JobBoard profile using Github avatars.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Go to your profile on GitHub.com
+2. Append to your GitHub profile url “.png”, so it will look like this:
 
-## Learn More
+https://github.com/Irakarama-Laurent123.png
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Hit enter and the browser will generate a page with your image, it look like this:
+   https://avatars.githubusercontent.com/u/96382900?v=4
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Copy url of this page and paste it in `Submissions/<YOUR_GH_USERNAME>.json` file
