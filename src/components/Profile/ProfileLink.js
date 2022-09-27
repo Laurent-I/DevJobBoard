@@ -1,6 +1,15 @@
 import React from "react";
 
 const ProfileLink = (props) => {
+  if (!props.website) {
+    return null;
+  }
+  if (!props.github) {
+    return null;
+  }
+  if (!props.linkedin) {
+    return null;
+  }
   return (
     <div className="flex flex-row justify-evenly my-2">
       <a
