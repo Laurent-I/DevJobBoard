@@ -42,7 +42,7 @@ function App() {
             key={i}
             id={profile.id}
             name={profile.name}
-            image={profile.image}
+            image={profile.img}
             email={profile.email}
             linkedin={profile.linkedin}
             website={profile.website}
