@@ -18,8 +18,7 @@ const ProfileImage = (props) => {
       className="rounded-full border-4 border-blue-600 w-32 h-32 mx-16 my-5 flex flex-col hover:border-orange-400"
       id="image_container"
     >
-      {props.image && imageFound}
-      {!props.image && imageNotFound}
+      {props.image ? imageFound:imageNotFound}
     </div>
   );
 };
