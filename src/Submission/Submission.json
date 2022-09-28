@@ -1,24 +1,34 @@
 [
-  {
-    "id": 1,
-    "name": "Irakarama Laurent",
-    "img": "https://github.com/Irakarama-Laurent123.png",
-    "email": "irakramlaw@gmail.com",
-    "website": "",
-    "linkedin": "https://www.linkedin.com/in/irakarama-laurent-119741241/",
-    "github": "https://github.com/Irakarama-Laurent123",
-    "jobTitle": "Web Developer",
-    "location": "Kigali, Rwanda"
-  },
-  {
-    "id": 2,
-    "name": "Murangwa Pacifique",
-    "img": "https://github.com/pacifiquem.png",
-    "email": "pacifiquemurangwa001@gmail.com",
-    "website": "",
-    "linkedin": "https://www.linkedin.com/in/pacifique-murangwa-10394722b/",
-    "github": "https://github.com/pacifiquem",
-    "jobTitle": "Web Developer",
-    "location": "Kigali, Rwanda"
-  }
+	{
+		"id": 1,
+		"name": "Irakarama Laurent",
+		"img": "https://github.com/Irakarama-Laurent123.png",
+		"email": "irakramlaw@gmail.com",
+		"website": "",
+		"linkedin": "https://www.linkedin.com/in/irakarama-laurent-119741241/",
+		"github": "https://github.com/Irakarama-Laurent123",
+		"jobTitle": "Web Developer",
+		"location": "Kigali, Rwanda"
+	},
+	{
+		"id": 2,
+		"name": "Murangwa Pacifique",
+		"img": "https://github.com/pacifiquem.png",
+		"email": "pacifiquemurangwa001@gmail.com",
+		"website": "",
+		"linkedin": "https://www.linkedin.com/in/pacifique-murangwa-10394722b/",
+		"github": "https://github.com/pacifiquem",
+		"jobTitle": "Web Developer",
+		"location": "Kigali, Rwanda"
+	},
+	{
+		"name": "Vainqueur ISHIMWE",
+		"img": "https://github.com/IVainqueur.png",
+		"email": "ishimvainqueur@gmail.com",
+		"website": "",
+		"linkedin": "https://www.linkedin.com/in/IVainqueur",
+		"github": "https://github.com/IVainqueur",
+		"jobTitle": "Software Engineer",
+		"location": "Nyabihu, Rwanda"
+	}
 ]
