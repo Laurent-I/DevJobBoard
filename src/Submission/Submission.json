@@ -48,5 +48,15 @@
 		"github": "https://github.com/mugihap",
 		"jobTitle": "Software Engineer",
 		"location": "Kigali, Rwanda"
+	},
+	{
+		"name": "Israel Manzi",
+    		"img": "https://avatars.githubusercontent.com/u/104481099?v=4",
+    		"email": "manziisrael99@gmail.com",
+    		"website": "",
+    		"linkedin": "https://www.linkedin.com/in/manzi-israel-279a83226/",
+    		"github": "https://github.com/israelmanzi",
+    		"jobTitle": "Backend Developer",
+    		"location": "Valhalla, Asgard"
 	}
 ]
