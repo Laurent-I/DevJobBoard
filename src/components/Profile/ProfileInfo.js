@@ -4,7 +4,7 @@ const ProfileInfo = (props) => {
   return (
     <Fragment>
       <h2
-        className="text-2xl font-bold flex justify-center items-center w-full"
+        className="text-2xl font-bold flex justify-center items-center w-full px-2"
         id="user_name"
       >
         {props.name}
