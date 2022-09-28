@@ -1,6 +1,5 @@
 [
 	{
-		"id": 1,
 		"name": "Irakarama Laurent",
 		"img": "https://github.com/Irakarama-Laurent123.png",
 		"email": "irakramlaw@gmail.com",
@@ -11,7 +10,6 @@
 		"location": "Kigali, Rwanda"
 	},
 	{
-		"id": 2,
 		"name": "Murangwa Pacifique",
 		"img": "https://github.com/pacifiquem.png",
 		"email": "pacifiquemurangwa001@gmail.com",
