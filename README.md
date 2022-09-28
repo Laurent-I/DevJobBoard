@@ -55,7 +55,4 @@ Please submit a Pull Request to be added to this list. If you are unsure how to 
 
 https://github.com/Irakarama-Laurent123.png
 
-3. Hit enter and the browser will generate a page with your image, it look like this:
-   https://avatars.githubusercontent.com/u/96382900?v=4
-
 4. Copy url of this page and paste it in `Submissions/Submission.json` file
