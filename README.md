@@ -23,7 +23,7 @@ If you are unclear on how the GitHub workflow works, you can check the [Make a P
 ---
 
 To add your DATA to the list `Submission.json`
-inside `Submissions/` folder, with following content.
+inside `./src/Submissions/` folder, with following content.
 (**Don't include the square brackets "[ ]" or angle brackets "< >" !!! They
 are just there to indicate an example placeholder.**)
 
