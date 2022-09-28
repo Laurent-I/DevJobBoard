@@ -28,5 +28,15 @@
 		"github": "https://github.com/IVainqueur",
 		"jobTitle": "Software Engineer",
 		"location": "Nyabihu, Rwanda"
+	},
+	{
+		"name": "MUGISHA Precieux",
+		"img": "https://github.com/mugishap.png",
+		"email": "precieuxmugisha@gmail.com",
+		"website": "https://mprecieux.vercel.app",
+		"linkedin": "https://www.linkedin.com/in/mugisha-precieux-410336227/",
+		"github": "https://github.com/mugihap",
+		"jobTitle": "Software Engineer",
+		"location": "Kigali, Rwanda"
 	}
 ]
