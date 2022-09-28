@@ -9,5 +9,16 @@
     "github": "https://github.com/Irakarama-Laurent123",
     "jobTitle": "Web Developer",
     "location": "Kigali, Rwanda"
+  },
+  {
+    "id": 2,
+    "name": "Murangwa Pacifique",
+    "img": "https://avatars.githubusercontent.com/u/96382900?v=4",
+    "email": "pacifiquemurangwa001@gmail.com",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/pacifique-murangwa-10394722b/",
+    "github": "https://github.com/pacifiquem",
+    "jobTitle": "Web Developer",
+    "location": "Kigali, Rwanda"
   }
 ]
