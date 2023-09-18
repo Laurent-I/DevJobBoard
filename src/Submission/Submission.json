@@ -61,45 +61,45 @@
 	},
 	{
 		"name": "Israel Manzi",
-    		"img": "https://avatars.githubusercontent.com/u/104481099?v=4",
-    		"email": "manziisrael99@gmail.com",
-    		"website": "",
-    		"linkedin": "https://www.linkedin.com/in/manzi-israel-279a83226/",
-    		"github": "https://github.com/israelmanzi",
-    		"jobTitle": "Backend Developer",
-    		"location": "Valhalla, Asgard"
+		"img": "https://avatars.githubusercontent.com/u/104481099?v=4",
+		"email": "manziisrael99@gmail.com",
+		"website": "",
+		"linkedin": "https://www.linkedin.com/in/manzi-israel-279a83226/",
+		"github": "https://github.com/israelmanzi",
+		"jobTitle": "Backend Developer",
+		"location": "Valhalla, Asgard"
 	},
 	{
 		"name": "BUGINGO Elua",
-    		"img": "https://avatars.githubusercontent.com/u/95168273?s=400&u=9c079978e93a192267ae52fd5c8d3ecc7a3ec6b1&v=4",
-    		"email": "bugingoeloi@gmail.com",
-    		"website": "",
-    		"linkedin": "https://www.linkedin.com/in/bugingo-elua-b42402231/",
-    		"github": "https://github.com/Elua-b",
-    		"jobTitle": "software Engineer",
-    		"location": "Nyamirambo, Kigali"
+		"img": "https://avatars.githubusercontent.com/u/95168273?s=400&u=9c079978e93a192267ae52fd5c8d3ecc7a3ec6b1&v=4",
+		"email": "bugingoeloi@gmail.com",
+		"website": "",
+		"linkedin": "https://www.linkedin.com/in/bugingo-elua-b42402231/",
+		"github": "https://github.com/Elua-b",
+		"jobTitle": "software Engineer",
+		"location": "Nyamirambo, Kigali"
 	},
-        {
-		"name" : " Bruno Jazzy DUSHIMIYIMANA",
-		"img" : "https://avatars.githubusercontent.com/u/95282931?s=400&u=7a6dfd2ff38b234ba7298da4641c75d303df3341&v=4",
-		"email" : "jazzybruno45@gmail.com",
-		"linkedin" : "https://www.linkedin.com/in/jazzy-bruno-b9861a225/",
-		"website" : "",
-		"github" : "https://github.com/jazzybruno",
-		"jobTitle" : "Software Engineer",
-		"location": "Nyamata , Rwanda"
-	 },
 	{
-		"name" : " Derick DUKUNDANE",
-		"img" : "https://lh3.googleusercontent.com/a-/ACNPEu9YgWFgtshSHQRxZGeJzGF4UoGW-hgIhqhEckTY=s192-c-rg-br100",
-		"email" : "yvesderricks@gmail.com",
-		"linkedin" : "https://www.linkedin.com/in/derick-dukundane-994b9b239/",
-		"website" : "",
-		"github" : "https://github.com/furahaderick",
-		"jobTitle" : "Product Designer",
+		"name": " Bruno Jazzy DUSHIMIYIMANA",
+		"img": "https://avatars.githubusercontent.com/u/95282931?s=400&u=7a6dfd2ff38b234ba7298da4641c75d303df3341&v=4",
+		"email": "jazzybruno45@gmail.com",
+		"linkedin": "https://www.linkedin.com/in/jazzy-bruno-b9861a225/",
+		"website": "",
+		"github": "https://github.com/jazzybruno",
+		"jobTitle": "Software Engineer",
+		"location": "Nyamata , Rwanda"
+	},
+	{
+		"name": " Derick DUKUNDANE",
+		"img": "https://lh3.googleusercontent.com/a-/ACNPEu9YgWFgtshSHQRxZGeJzGF4UoGW-hgIhqhEckTY=s192-c-rg-br100",
+		"email": "yvesderricks@gmail.com",
+		"linkedin": "https://www.linkedin.com/in/derick-dukundane-994b9b239/",
+		"website": "",
+		"github": "https://github.com/furahaderick",
+		"jobTitle": "Product Designer",
 		"location": "Kigali , Rwanda"
-	 },
-   {
+	},
+	{
 		"name": "valens NIYONSENGA",
 		"img": "",
 		"email": "uwavalens2003@gmail.com",
@@ -118,6 +118,5 @@
 		"github": "https://github.com/FADHILI-Josue",
 		"jobTitle": "fullstack developer",
 		"location": "Huye, Rwanda"
-	  }
-	
+	}
 ]
