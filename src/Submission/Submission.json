@@ -108,6 +108,16 @@
 		"github": "https://github.com/valens200",
 		"jobTitle": "Backend developer",
 		"location": "Nyabihu, Rwanda"
-	}
+	},
+	{
+		"name": "FADHILI Josue",
+		"img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vectors%2Fprogrammer-avatar-developer-vectors&psig=AOvVaw2kQAuqAZChzHyHl5Nrq6a0&ust=1695110877129000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNje4KLas4EDFQAAAAAdAAAAABAI",
+		"email": "fadhilijosue27@gmail.com",
+		"website": "",
+		"linkedin": "https://www.linkedin.com/in/fadhili-josue",
+		"github": "https://github.com/FADHILI-Josue",
+		"jobTitle": "fullstack developer",
+		"location": "Huye, Rwanda"
+	  }
 	
 ]
